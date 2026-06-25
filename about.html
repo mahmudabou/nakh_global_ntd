@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: arial, sans-serif;
+        }
+         .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    background:#0f172a;
+}
+
+.logo h2{
+    color:#ff6b00;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
+
+.menu-btn{
+    display:none;
+    color:white;
+    font-size:25px;
+    cursor:pointer;
+}
+        body{
+            background: #f5f5f5;
+            color: #333;
+        }
+        .about{
+            width: 90%;
+            margin: auto;
+            padding: 40px 0;
+        }
+        .title{
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px;
+        }
+        .company{
+            text-align: center;
+            margin-bottom: 50px;
+            line-height: 1.8;
+        }
+        .members{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card{
+            background: white;
+            width: 280px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1),
+        }
+        .card :hover{
+            transform: translateY(-5px);
+            transition: 0.3s;
+        }
+        .card img{
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+        }
+        .card-content{
+            padding: 20px;
+            text-align: center;
+        }
+        .card-content h3{
+            margin-bottom: 10px;
+            color:#ff6b00;
+        }
+        .location{
+            background: #0d1b2a;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+        .location h2{
+            color: #ff6b00;
+        }
+        .title h1{
+            color: #ff6b00;
+        }
+         @media  (max-width: 768px){
+         .nav-links a{
+            font-size: 10px;
+        }
+        .title h1{
+            font-size: 20px;
+        }
+        .company P{
+            font-size: 12px;
+        }
+       }
+       .card-content P{
+            font-size: 12PX;
+       }
+       .card-content h3{
+        font-size: 12px;
+       }
+       .location p{
+        font-size: 12px;
+
+       }
+       .location h2 {
+        font-size: 15px;
+
+       }
+    </style>
+</head>
+<body>
+      <header>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>NAKH</h2>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="new_update.html">NweUpdate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
+        <div class="title">
+            <h1>ABOUT NAKH GLOBAL ENTERPRISE</h1>
+        </div>
+        <div class="company">
+            <p>NAKH Global Enterprise is a trusted company specializing in phone sales, phone accessories, phone swapping, and smartphone repairs. we provide quality products and reliable services to customers with profesionalism and honesty.</p>
+        </div>
+        <div class="members">
+            <div class="card">
+                <img src="IMG/OGA.jpg" alt="company maneger">
+                <div class="card-content">
+                    <!-- <h3>COMPANY MANEGER</h3> -->
+                    <h3>Najamudeen Abubakar Kafur</h3>
+                    <p>company maneger and founder of NAK Enterprise. he oversees company operation and ensures customers satisfection. </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG/MUSA.jpg" alt="company member">
+                <div class="card-content">
+                    <h3>Musa Nasir</h3>
+                    <p>sales reprisentative responsible for helping customers choose quality phones and accessories.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG/PERMANET.jpg" alt="company member2">
+                <div class="card-content">
+                    <h3>Kabir Muhammad</h3>
+                    <p>customer support officer dedicate to provide excellent customer service and asistence.</p>
+                </div>
+            </div>
+        </div>
+        <div class="location">
+            <h2>Company Address</h2>
+            <br>
+            <p>NAKH Enterprise <br>yan kaji opposite alhj Dan kane shope behinde halli pilling station, kafur , katsina state, nigeria</p>
+        </div>
+    </div>
+</body>
+</html>

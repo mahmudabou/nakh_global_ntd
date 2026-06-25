@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+       
+        h2{
+              color:#ff6b00;
+        }
+         .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    background:#0f172a;
+}
+
+.logo h2{
+    color:#ff6b00;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
+
+.menu-btn{
+    display:none;
+    color:white;
+    font-size:25px;
+    cursor:pointer;
+}
+        .service-box{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            gap:25px;
+            flex-wrap:wrap;
+            
+    }
+     .card{
+      background:#f8f9fa;
+      width:250px;
+      padding:25px;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h3{
+      margin-bottom:15px;
+      color:#ff6b00;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        font-size:40px;
+        margin-bottom:40px;
+        
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* gap: 10px; */
+    }
+    .card{
+        /* display: flex; */
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        margin: 15px;
+        margin-bottom: auto;
+    }
+    @media (max-width: 768px){
+         .cards{
+            flex-direction: column;
+            align-items: center;
+        }
+        .marx{
+            flex-direction: column;
+            align-items: center;
+        }
+        .mark{
+            flex-direction: column;
+            align-items: center;
+        }
+        .card{
+            width: 50%;
+        }
+        .nav-links a{
+            font-size: 10px;
+        }
+        h2{
+            font-size: 16px;
+        }
+        .card h3{
+            font-size:12PX ;
+        }
+          .card p{
+            font-size:10PX ;
+        }
+        .card img{
+            width: 80%;
+        }
+    }
+    
+
+    </style>
+</head>
+<body>
+      <header>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>NAKH</h2>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="new_update.html">NweUpdate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
+     <!-- <div class="navbar">
+            <a href="home.html" class="nav-links">Home</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact .html" class="nav-link">Contact us</a>
+            <a href="new update.html" class="nav-link">New update</a>
+        </div> -->
+    <h2>OUR SERVICES</h2>
+    <div class="service-box">
+        <div class="card">
+            <h3>PHONE SALES</h3>
+            <p>what ever kind of phones you want just contact us @nakh enterprise</p>
+        </div>
+        <div class="card">
+            <h3>PHONE REPAIRS</h3>
+            <p>once your phones get cracked kindly contact us @ nakh enterprise for an emargency  action </p>
+        </div>
+        <div class="card">
+            <h3>PHONE SCRAP</h3>
+            <p>we get all kind of phones part/piecies you are loocking for @ nakh enterprise</p>
+        </div>
+          <div class="card">
+            <h3>ACCESSORIES</h3>
+            <p>we get all kind of accessories you are loocking for @ nakh enterprise</p>
+        </div>
+    </div>
+    </div>
+    <div class="cards">
+    <div class="card">
+          <h3>PHONE SALES</h3>
+          <img src="image/swap.png" height="320PX" width="260PX">
+    </div>
+     <div class="card">
+          <h3>PHONE REPAIRS</h3>
+          <img src="image/Orange and White Modern Phone Repair Service Instagram Post.png" height="320PX" width="260PX">
+    </div>
+     <div class="card">
+          <h3>PHONE SCRAP</h3>
+          <img src="image/scrsp.png" height="320PX" width="260PX">
+    </div>
+     <div class="card">
+          <h3>ACCESSORIES</h3>
+          <img src="IMG/ACCECC.png" height="320PX" width="260PX">
+    </div>
+    </div>
+</body>
+</html>
